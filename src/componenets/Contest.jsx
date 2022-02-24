@@ -1,11 +1,11 @@
 import React from 'react'
 import moment from 'moment'
-
+import {motion} from 'framer-motion'
 function Contest({info}) {
   return (
-    <div>
+    <motion.div layout>
         <div className='max-w-sm shadow-md rounded overflow-hidden bg-green-50 dark:bg-slate-900 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-103 hover:bg-indigo-500 duration-300 cursor-pointer'>
-            <div className='px-6'>
+            <div layout className='px-6'>
                     <div className='px-6 py-6'>
                         <div className='font-mono text-xl mb-3 dark:text-white font-bold tracking-widest'>{info.name}</div>
                     </div>
@@ -25,7 +25,7 @@ function Contest({info}) {
                     </div>
               </div>
          </div>
-    </div>
+    </motion.div>
   )
 }
 
