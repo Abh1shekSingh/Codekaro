@@ -40,7 +40,7 @@ function Home() {
     content = 
      <div>       
 
-        <div className='grid grid-cols-3 sm:grid-cols-8 text-purple flex gap-4 justify-center items-center py-6'>
+        <div className='grid grid-cols-3 sm:grid-cols-8 text-xs sm:text-base text-purple flex gap-4 justify-center items-center py-6'>
           <button className=' bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded-full' onClick={() => setSearchTerm("All")}>All</button>
           <button className=' bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded-full' onClick={() => setSearchTerm("Leetcode")}>Leetcode</button>
           <button className=' bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded-full' onClick={() => setSearchTerm("Codechef")}>Codechef</button>

@@ -9,7 +9,7 @@ function Contest({info}) {
                     <div className='px-6 py-6'>
                         <div className='font-mono text-xl mb-3 dark:text-white font-bold tracking-widest'>{info.name}</div>
                     </div>
-                    <div className='text-white mx-4 mb-2 bg-slate-500 rounded-full px-2 py-1 w-1/3 text-center'>
+                    <div className='text-white text-sm sm:text-base mx-4 mb-2 bg-slate-500 rounded-full px-2 py-1 w-1/3 text-center'>
                       <p>#{info.site}</p>
                     </div>
                       
