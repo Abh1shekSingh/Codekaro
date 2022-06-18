@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       space:['JetBrains Mono', 'monospace'],
       bitter:['Bitter', 'serif'],
+      b612:['B612', 'sans-serif']
     }
   },
   plugins: [],
